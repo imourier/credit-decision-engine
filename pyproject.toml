@@ -1,0 +1,14 @@
+[project]
+name = "credit-decision-engine"
+version = "0.1.0"
+description = "A generic, auditable consumer-credit decision engine on synthetic data."
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Ian Mourier" }]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
